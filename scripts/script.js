@@ -1,4 +1,10 @@
 
 function ClickMe(){
-    alert("You clicked the Button!");
+    
+    // var = variable
+
+    var h1 = document.getElementById("header");
+
+    h1.innerHTML = "Blue Phenix";
+
 }
